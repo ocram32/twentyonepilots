@@ -162,21 +162,22 @@ body{
     }
   }
   @media screen and (max-width: 768px) {
-    .banner {
-      padding: 2em;
-      text-align: center;
-      height: 550px;
-    }
+   .banner {
+    padding: 2em;
+    text-align: center;
+    height: 350px;
+}
 
     .banner3 {
       padding: 2em;
       text-align: center;
       height: 500px;
     }
-    .imagen1 {
-      height: 350px;
-      width: auto;
-    }
+    
+.imagen1 {
+    height: 200px;
+    width: 300px;
+}
 
     .row {
       align-items: center;
