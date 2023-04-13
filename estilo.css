@@ -1,0 +1,277 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.banner {
+    background-color: #F89880;
+    color: #f1f1f1;
+    padding: 2em;
+    text-align: center;
+    height: 630px;
+  }
+
+  .contenido{
+    padding: 100px;
+  }
+
+  .banner3 {
+    background-color: #A0C1C3;
+    color: #f1f1f1;
+    padding: 2em;
+    text-align: center;
+    height: 630px;
+  }
+
+  h1 {
+    font-weight: 1000;
+  }
+
+  .imagen1 {
+    width: auto;
+    height: 450px;
+  }
+ 
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .row2 {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+
+  .column {
+    flex: 25%;
+    padding: 20px;
+  }
+  
+
+  @media screen and (max-width: 992px) {
+    .column {
+      flex: 50%;
+    }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .row2 {
+      flex-direction: column;
+    }
+  }
+
+
+
+
+  .bannergracias {
+      background-image: url(media/fondogracias.png);
+    color: #f1f1f1;
+    height: 100%;
+  }
+
+  .contenido{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+
+  .banner2 {
+    background-color: #A0C1C3;
+    color: #f1f1f1;
+    height: 300px;
+  }
+
+  #parrafo {
+    font-size: 20px;
+  }
+
+  #titulo{
+    font-size: 30px;
+    color: aliceblue;
+  }
+
+  #titulo2 {
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+  }
+
+  #tarjetas{
+    background-color: #e7c592;
+  }
+ 
+  .container {
+    height: 100vh;
+  }
+  .row {
+    align-items: center;
+    height: 550px;
+    overflow:hidden;
+  }
+  .btn {
+    padding: 0.5em 1.5em;
+    border-radius: 2em;
+  }
+
+  .fw-bold.display-4 {
+    font-size: 40px;
+  }
+
+  .form-box {
+    max-width: 100%;
+    margin: auto;
+    padding: 50px;
+    background: #e7c592;
+  }
+.seccion1 {
+  background-color: #F89880;
+}
+
+.seccion2 {
+  background-color: #A0C1C3;
+  margin-top: 50px;
+}
+
+
+.seccion3 {
+  background-color: #e7c592;
+}
+
+  .card{
+    padding:0;
+    
+  }
+ 
+  .btn.btn-primary{
+    background-color: #A0C1C3;
+    border: 0;
+  }
+
+  @media screen and (min-width: 769px) {
+    p {
+      font-size: 1.2em;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .banner {
+      padding: 2em;
+      text-align: center;
+      height: 550px;
+    }
+
+    .banner3 {
+      padding: 2em;
+      text-align: center;
+      height: 500px;
+    }
+    .imagen1 {
+      height: 350px;
+      width: auto;
+    }
+
+    .row {
+      align-items: center;
+      height: 450px;
+      overflow:hidden;
+    }
+
+    
+  .fw-bold.display-4 {
+    font-size: 20px;
+  }
+  }
+  @media screen and (max-width: 567px) {
+    img {
+      width: 70%;
+    }
+  }
+  
+
+  .formulario{
+    background-color: #e7c592;
+    width:400px;
+    margin: 20px auto;
+  }
+  
+  .title{
+    background-color: red;
+    padding:20px 20px 30px 20px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.6)
+      ), url(https://images.pexels.com/photos/1550337/pexels-photo-1550337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size:cover;
+    background-position:center;
+    background-repeat:none;
+    color:white;
+    letter-spacing: 2px;
+  }  
+  
+  form{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:auto;
+    grid-gap:10px;
+    padding: 20px
+  }
+  .form-field{
+    display:flex;
+    flex-direction:column;
+  }
+  
+  input[type="text"],input[type="email"]{
+    height: 2.4em;
+    font-size:1em;
+    padding-left: 5px;
+    outline:none;
+    border: none;
+    border-radius: 5px;
+  }
+  input[type="text"]:focus,input[type="email"]:focus{
+    border: 2px solid rgba(98, 147, 173,0.5);
+  }
+  label{
+    font-size:1.2em;
+    margin-bottom: 5px;
+  }
+  textarea{
+    resize:none;
+    font-size:1em;
+    padding: 6px 5px;
+    outline:none;
+    border: none;
+    border-radius: 5px;
+  }
+  textarea:focus{
+    border: 2px solid rgba(98, 147, 173,0.5);
+  }
+  .btn{
+    display:flex;
+    align-items:flex-end;
+  }
+  input[type="submit"]{
+    padding:6px 15px;
+    outline:none;
+    border: none;
+    border-radius: 5px;
+    margin-top:10px;
+    background-color: #000;
+    color:white;
+  }
+  
+  @media (max-width:415px){
+    .formulario{
+    background-color: #e7c592;
+    width:100%;
+    margin: 20px auto;
+  }
+  }
