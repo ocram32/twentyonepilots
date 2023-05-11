@@ -9,10 +9,6 @@ a:hover {
   background-color: gold;
 }
 
-links:hover {
-  background-color: gold;
-}
-
 html {
   scroll-behavior: smooth;
 }
