@@ -1,0 +1,84 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Geologica');
+  @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*{
+    font-family: 'Geologica', sans-serif;
+}
+
+.menu {
+    background-color: #ffe4c4;
+}
+
+#textonav {
+    text-decoration: none !important;
+
+}
+
+
+.calltoaction {
+    background-color: rgb(220, 221, 221);
+}
+
+.container-fluid {
+    background-color: rgb(197, 197, 197);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .album-name {
+    font-weight: bold;
+  }
+  
+  .card:hover .overlay {
+    opacity: 1;
+  }
+  
+
+  .image-card {
+    overflow: hidden;
+}
+
+.image-card img {
+    transition: transform 0.3s ease;
+}
+
+.image-card:hover img {
+    transform: scale(1.1);
+}
+@media only screen and (min-width: 600px) {
+    .navbar-brand{
+        display: none;
+        }
+        } 
+
+        @media only screen and (max-width: 600px) {
+            .navbar-text{
+                display: none;
+                }
+                } 
+
+    
+
+
+
+  
