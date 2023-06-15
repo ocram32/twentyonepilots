@@ -6,4 +6,4 @@ Marco Ferrari
 ### Trabajos> 
 <a href='https://ocram32.github.io/twentyonepilots/'>Meet & Greet</a> <br>
 <a href='https://ocram32.github.io/twentyonepilots/cv'>CV - Tyler Joseph</a> <br>
-<a href='https://ocram32.github.io/twentyonepilots/tpfinal'>TP Final</a>
+<a href='https://ocram32.github.io/twentyonepilots/tpfinal/index.html'>TP Final</a>
