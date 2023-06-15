@@ -8,6 +8,15 @@
     font-family: 'Geologica', sans-serif;
 }
 
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  margin-top: auto;
+}
+
 .menu {
     background-color: #ffe4c4;
 }
