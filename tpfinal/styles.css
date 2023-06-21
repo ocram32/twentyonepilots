@@ -26,9 +26,14 @@ footer{
 
 }
 
+.quienes-somos {
+  padding-top: 20px;
+}
+
 
 .calltoaction {
     background-color: rgb(220, 221, 221);
+    padding: 20px;
 }
 
 .container-fluid {
@@ -74,16 +79,12 @@ footer{
 .image-card:hover img {
     transform: scale(1.1);
 }
-@media only screen and (min-width: 600px) {
-    .navbar-brand{
-        display: none;
-        }
-        } 
+
 
         @media only screen and (max-width: 600px) {
-            .navbar-text{
-                display: none;
-                }
+                .jumbotron {
+                  background-image: url('imgs/twnty-hm.jpg') !important;
+              }
                 } 
 
     
