@@ -26,6 +26,14 @@ footer{
 
 }
 
+#zoomimg {
+  transition: transform 0.3s ease;
+}
+
+#zoomimg:hover {
+  transform: scale(1.07);
+}
+
 .quienes-somos {
   padding-top: 20px;
 }
